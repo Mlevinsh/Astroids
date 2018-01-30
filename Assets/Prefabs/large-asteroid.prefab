@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 50545244753343906}
   - component: {fileID: 60568975548589078}
   - component: {fileID: 114763544494408158}
+  - component: {fileID: 114251089549958422}
   m_Layer: 0
   m_Name: large-asteroid
   m_TagString: LargeAsteroid
@@ -166,6 +167,17 @@ PolygonCollider2D:
       - {x: 0.48, y: -0.9}
       - {x: 0.31, y: -1.1999999}
       - {x: 0.26999998, y: -1.29}
+--- !u!114 &114251089549958422
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1972292156411176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1078ff4cb1f250a4fa2c254be48b1d95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114763544494408158
 MonoBehaviour:
   m_ObjectHideFlags: 1

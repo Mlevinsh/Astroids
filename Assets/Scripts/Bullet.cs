@@ -11,8 +11,7 @@ public class Bullet : MonoBehaviour {
         Destroy(gameObject, 1.0f);
 
         // Push the bullet in the direction it is facing
-        GetComponent<Rigidbody2D>()
-            .AddForce(transform.up * 400);
+        GetComponent<Rigidbody2D>().AddForce(transform.up * 400);
     }
 	
 	// Update is called once per frame

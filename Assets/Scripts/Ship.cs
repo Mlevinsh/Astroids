@@ -37,7 +37,7 @@ public class Ship : MonoBehaviour {
                 Input.GetAxis("Vertical"));
 
         // Has a bullet been fired
-        if (Input.GetKeyDown("space"))
+        if (Input.GetKey("space"))
             ShootBullet();
 
     }
